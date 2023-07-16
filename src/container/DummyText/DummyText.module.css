@@ -1,0 +1,32 @@
+.textContainer{
+    position: absolute;
+    height:25vh;
+    width:50%;
+    background:rgb(29, 28, 28);
+    border-radius:10px;
+    box-shadow: 5px 10px 18px black;
+    padding:20px;
+    margin-top:30vh;
+    text-align:center;
+    min-width:600px;
+}
+.textHeader{
+    color:white;
+    text-align:center;
+    letter-spacing: .5px;
+}
+.wholeText > p {
+    color:rgba(255, 255, 255, 0.862);
+    font-size:1.2rem;
+    text-align:center;
+    margin-top: 25px;
+    max-height:20vh;
+}
+
+.textPartOne{
+    height: 20%;
+}
+.textPartTwo{
+    margin-left:10%;
+    width: 80%;
+}

@@ -1,0 +1,31 @@
+.cartBtn{
+    height:60px;
+    width:250px;
+    border-radius:30px;
+    border:none;
+    background: rgb(139, 64, 0);
+    color:white;
+    font-size:1.2rem;
+    cursor: pointer;
+}
+.cartBtn:hover{
+    background: rgba(0, 0, 0, 0.751);
+}
+.text{
+    height: 40px;
+    width: 250px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.count{
+    margin-left:30px;
+    height:30px;
+    width:40px;
+    background:rgb(204, 85, 0);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    border-radius:15px;
+}

@@ -1,0 +1,78 @@
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 20;
+    background-color: rgba(0, 0, 0, 0.75);
+  }
+  
+  .modal {
+    position: fixed;
+    top: 20vh;
+    left: 5%;
+    width: 90%;
+    height: auto;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 14px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    z-index: 30;
+    animation: slide-down 300ms ease-out forwards;
+  }
+
+  .closeBtn, .orderBtn{
+    font-size: 1.5rem;
+    padding:10px;
+    width:120px;
+    border: 1px solid rgb(139, 64, 0);
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top:2vh;
+    margin-left:10px;
+    float: right;
+  }
+
+  .closeBtn{
+    color: rgb(139, 64, 0);
+    background: white;
+    transition: .5s background ease-in-out;
+  }
+  .closeBtn:hover{
+    background: rgb(139, 64, 0);
+    color:white;
+  }
+
+  .orderBtn{
+    color:white;
+    background: rgb(139, 64, 0);
+    transition: .5s background ease-in-out;
+  }
+  .orderBtn:hover{
+    background: white;
+    color: rgb(139, 64, 0);
+  }
+
+  .totalPrice{
+    display:flex;
+    justify-content:space-between;
+  }
+
+  @media (min-width: 768px) {
+    .modal {
+      width: 40rem;
+      left: calc(50% - 20rem);
+    }
+  }
+  
+  @keyframes slide-down {
+    from {
+      opacity: 0;
+      transform: translateY(-3rem);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }

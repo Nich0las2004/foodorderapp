@@ -1,0 +1,59 @@
+.line{
+    border:1px solid rgb(139, 64, 0);
+    margin-top: 15px;
+}
+
+.modalBtns{
+    text-align: center;
+}
+
+.btn1, .btn2{
+    border: 1px solid rgb(139, 64, 0);
+    width:50px;
+    height:30px;
+    color: rgb(139, 64, 0);
+    transition: .5s background ease-in-out;
+    border-radius: 8px;
+    font-size: 20px;
+    padding: 2px;
+    margin: 2px;
+    cursor: pointer;
+}
+
+.btn1:hover{
+    background: rgb(139, 64, 0);
+    color:white;
+}
+
+.btn2:hover{
+    background: rgb(139, 64, 0);
+    color:white;
+}
+
+.productsInfo{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.toLeftCenter{
+    width:110px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foodCount{
+    width:35px;
+    height:25px;
+    color: black;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 5px;
+    
+}
+
+.price{
+    color: rgb(139, 64, 0);
+    font-weight: 700;
+}
